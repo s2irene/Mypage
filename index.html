@@ -5,79 +5,161 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Irene Moon">
-    <meta property="og:description" content="2D, 3D Animator / Web Developer ">
+    <meta property="og:description" content="2D, 3D Animator / Web Developer">
     <meta property="og:image" content="AeranMoon.png">
-    <title>Irene Profile</title>
+    <title>Aeran Moon</title>
     <style>
-        @import url('AeranMoon.png');
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
         * {
             font-family: "Pretendard",serif;
         }
         body {
-            background-color:#fff6e6;
+            background-color:#f76898;
+        }
+        .pro {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-bottom: 40px;
         }
         .profile {
-            width: 100px;
-            height: 100px;
+            width: 58px;
+            height: 58px;
             border-radius: 100%;
-            border: 1px solid black;
-            background-image: url('AeranMoon.jpg');
+            border: 1px solid rgb(255, 255, 255);
+            background-image: url('AeranMoon.png');
             background-position: center;
             background-size: cover;
         }
+        .headcopy {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 260px;
+        }
         .main {
-            color : #000000;
-            font-size: 18px;
+            color : #FFFFFF;
+            font-size: 27px;
             size : 20px;
-            margin-top: 30px;
-            margin-bottom: 10px;
+            font-weight: 800;
+            margin: 0%;
         }
         .sub {
-            color : #000000;
+            color : #FFFFFF;
             font-size: 14px;
             font-weight: 400;
             size : 14px;
-            margin-top: 0px;
-            margin-bottom: 30px;
+            margin-top: 10px;
+        }
+        .minis {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 7px;
+            margin-bottom: 68px;
+        }
+        .minis > a {
+            width: 102px;
+            height: 48px;
+            border-radius: 32px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            white-space:pre-wrap;
+        }
+        .notion {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #F7F6F3;
+            color:#84827D;
+        }
+        .brunch {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #F7F6F3;
+            color:#84827D;
+        }
+        .facebook {
+            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #F7F6F3;
+            color:#84827D;
         }
         .wrap {
-            width: 300px;
+            width: 320px;
             margin: 30px auto 0px auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-        .wrap > a {
-            width: 320px;
-            height: 59px;
-            border-radius: 16px;
-            background-color: white;
-            margin-bottom: 16px;
-            font-size: 16px;
-            font-weight: bold;
-            color:#000000;
+        .bigs {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
             align-items: center;
-            text-decoration: none;
-            border: 1px solid #353432;
+            padding: 0px;
+            gap: 10px;
         }
-        .wrap > a:hover {
-            background-color: #fff6e6;
+        .bigs > a {
+            width: 123px;
+            background-color: white;
+            margin-bottom: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-decoration: none;
+            padding: 20px 16px 16px 16px;
+            border-radius: 8px;
+        }
+        .name {
+            font-size: 22px;
+            font-weight: 700;
+            color: #222222;
+            margin-bottom: 45px;
+        }
+        .desc {
+            font-size: 12px;
+            font-weight: 500;
+            color: #555555;
+            margin-bottom: 24px;
+        }
+        .btn {
+            font-size: 12px;
+            font-weight: 700;
+            color: #ffffff;
+            background-color: #ffcee7;
+            border-radius: 4px;
+            padding: 5px 4px 5px 4px;
         }
     </style>
 </head>
 <body>
     <div class="wrap">
-        <div class="profile"></div>
-        <h1 class="main">Irene Moon</h1>
-        <p class="sub"> 2D, 3D Animator / Web Developer </p>
-        <a target="_blank" href="http://aeran.creatorlink.net/">Portfolio</a>
-        <a target="_blank" href="https://www.tistory.com/member/blog">TISTORY</a>
-        <a target="_blank" href="https://github.com/s2irene">Github</a>
-        <a target="_blank" href="https://www.instagram.com/s2__irene/">Instagram</a>
+        <div class="pro">
+            <div class="headcopy">
+                <h1 class="main">애니메이터<br>문애란입니다.</h1>
+                <p class="sub">시대를 읽을 수 있는 눈, 창의적이고 살아 있는 표현력을 갖춘 애니메이터입니다.</p>
+            </div>
+            <div class="profile"></div>
+        </div>
+        <div class="minis">
+            <a class="notion" target="_blank" href="http://aeran.creatorlink.net/">Portfolio<span style="color:#555555;">></span></a>
+            <a class="brunch" target="_blank" href="https://s2irene.tistory.com/">Tistory></a>
+            <a class="facebook" target="_blank" href="https://github.com/s2irene">Github></a>
+        </div>
+        <div style="color:#FFFFFF;width: 320px;font-size: 14px;margin-bottom: 8px;">저를 소개합니다.</div>
+        <div class="bigs">
+            <a target="_blank" href="https://www.linkedin.com/in/irene-moon-691244168">
+                <div class="name">Linkedin</div>
+                <div class="desc">모두를 따뜻하게<br>해 줄 작품을<br>글로벌 하게 선보이다.</div>
+                <div class="btn">View</div>
+            </a>
+            <a target="_blank" href="https://vimeo.com/manage/videos/716414258/privacy">
+                <div class="name">portfolio</div>
+                <div class="desc">LGU+ 터치북<br>2022년<br>최신판 애니메이션</div>
+                <div class="btn">View</div>
+            </a>
+        </div>
+        <div style="color:#ffffff;font-size: 14px;background-position: center;background-size: cover;position: absolute;bottom: 50px;">@Copyright 2022 Irene Design. All rights reserved.</div>
     </div>
 </body>
 </html>
